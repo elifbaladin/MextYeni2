@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 st.header("uygulama v1")
 
-
+#
 genai.configure(api_key="AIzaSyCEvvvZ-L8TPN-o1GPlMoREiFoQj5oKPYc")
 safety_settings = [
         {
