@@ -13,4 +13,4 @@ jupyter
 google-generativeai
 PyMuPDF
 pillow
-python-dot.env
+python-dotenv
