@@ -48,7 +48,7 @@ def get_gemini_response(prompt):
 prompt = st.text_input("lütfen sorgunuzu beliritniz:")
 
 
-if st.button("Ücret"):
+if st.button("Üret"):
 
     response = get_gemini_response(prompt)
     st.markdown(response)
