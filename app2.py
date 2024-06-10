@@ -5,7 +5,7 @@ import google.generativeai as genai
 st.header("Uygulama V22")
 
 genai.configure(api_key= "AIzaSyAmXC386mweCOOW6NgF496s24I1GMNGifQ")
-
+@st.cache_resource
 def get_gemini_response(prompt):
     safety_settings = [
             {
