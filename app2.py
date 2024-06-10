@@ -2,10 +2,14 @@ import streamlit as st
 
 import google.generativeai as genai
 
-st.header("Uygulama V22")
+import streamlit as st
+
+import google.generativeai as genai
+
+st.header("Uygulama v1")
 
 genai.configure(api_key= "AIzaSyAmXC386mweCOOW6NgF496s24I1GMNGifQ")
-@st.cache_resource
+
 def get_gemini_response(prompt):
     safety_settings = [
             {
@@ -48,7 +52,7 @@ def get_gemini_response(prompt):
 prompt = st.text_input("lütfen sorgunuzu beliritniz:")
 
 
-if st.button("Üret"):
+if st.button("Ücret"):
 
     response = get_gemini_response(prompt)
     st.markdown(response)
