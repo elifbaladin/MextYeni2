@@ -25,7 +25,7 @@ safety_settings = [
         },
     ]
 generation_config = {
-        "temperature": 0.9,  #0'a yaklaştıkça hayal gücü artıyor 1'e yaklaştıkça gerçekliği artıyor
+        "temperature": 0.9,  #0'a yaklaştıkça gerçeklği 1e yaklaşyıkça hayal gücü artıyor.
         "top_p": 0.90,  #halisünasyon geçirmesi azalıyor
         "top_k": 64,
         "max_output_tokens": 18192,  #bir milyon kadar token alabiliyor
